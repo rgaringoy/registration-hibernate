@@ -16,19 +16,19 @@
                         <form action="register" method="post">
                             <div class="mb-3">
                                 <label for="name" class="form-label">Name</label>
-                                <input type="text" name="name" class="form-control" id="name">
+                                <input type="text" name="name" class="form-control" id="name" required>
                             </div>
                             <div class="mb-3">
                                 <label for="department" class="form-label">Department</label>
-                                <input type="text" name="department" class="form-control" id="department">
+                                <input type="text" name="department" class="form-control" id="department" required>
                             </div>
                             <div class="mb-3">
                                 <label for="salary" class="form-label">Salary</label>
-                                <input type="text" name="salary" class="form-control" id="salary">
+                                <input type="number" name="salary" class="form-control" id="salary" required>
                             </div>
                             <div class="mb-3">
                                 <label for="email" class="form-label">Email</label>
-                                <input type="text" name="email" class="form-control" id="email">
+                                <input type="email" name="email" class="form-control" id="email" required>
                             </div>
                             <div class="mb-3">
                                 <label for="password" class="form-label">Password</label>
